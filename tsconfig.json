@@ -1,0 +1,10 @@
+// typescript가 컴파일 될 때 필요한 옵션 지정
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "outDir": "./dist"
+  }
+}
